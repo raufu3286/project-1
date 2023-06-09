@@ -12,6 +12,7 @@
     font-size: 20px;
     color: #00afaa !important;
 }
+
 ul li:last-child{
     background-color:  #00afaa ;
     border-radius: 50px;
@@ -27,7 +28,7 @@ ul li:last-child:hover a{
 }
 ul li:last-child:hover {
     background-color: transparent;
-    border: 1px solid #00afaa;
+    border: 1px solid;
 }
 #banner{
     height:80%;
@@ -64,6 +65,13 @@ ul li:last-child:hover {
     padding-top: 100px;
 text-align: center;
 
+}
+.col-4 {
+    transition: all 0.3s linear;
+}
+.container:hover .col-4{
+    transform: scale(1.5);
+    cursor: pointer;
 }
 .card-2 img{
     height:35%;
